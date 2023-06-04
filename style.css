@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Montserrat", "Open Sans", "Ubuntu", sans-serif;
+	font-size: 12px;
+	max-width: 100%;
+}
+
+h1 {
+	letter-spacing: .3em;
+	font-size: 3em;
+	padding-block: 1em;
+}
+
+h2 {
+	font-size: 2em;
+	padding-block: 1em;
+}
+
+h3 {
+	font-size: 1.5em;
+	padding-block: 1em;
+}
+
+header {
+	text-align: center;
+	margin: .2em;
+}
+
+h1,
+h2,
+h3 {
+	margin: auto;
+}
+
+main {
+	display: grid;
+	grid-template-columns: 40% 60%;
+}
+
+#mainLeft {
+	border-right: 1px solid lightgray;
+}
+
+hr {
+	background-color: #888;
+	padding-block: 1em;
+}
+
+section {
+	margin: 2em auto;
+	max-width: 50%;
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1), 0 -10px 10px 0 rgba(0, 0, 0, .3);
+	border-radius: 40px;
+	padding: 1.2em 4em;
+	font-size: 14px;
+}
+
+p {
+	margin-bottom: 1.2em;
+	padding-block: .3em;
+	font-size: 1.2em;
+	font-weight: 400;
+}
+
+i {
+	margin: auto .3em;
+}
